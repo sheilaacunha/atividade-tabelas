@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        table {
+
+            width: 400px;
+            height: 300px;
+            font-size: 26px;
+           margin: 50px 25px;
+        }
+
+        table,
+        tr,
+        td {
+
+            border-radius: 10px;
+
+        }
+
+        td:nth-child(odd) {
+            background-color: #0a7c7c;
+        }
+
+        td {
+            background-color: #96D4D4;
+        }
+
+        li {
+
+            list-style-type: none;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        nav {
+            text-align: center;
+            font-size: 26px;
+        }
+
+        body {
+
+            background-color: #FFF0F5;
+            width: 100vw;
+        }
+        div {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+
+            <ul>
+
+                <li><a href="./index.html">Tabela simples</a> </li>
+                <li><a href="./layoutdesite.html">Layout de Site</a> </li>
+                <li><a href="./estruturastabelas.html">Estruturas de Tabela</a> </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div>
+
+            <table>
+                <!--tabela 01-->
+
+                <tr style="text-align:left ;">
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+
+                <tr style="text-align: center;">
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+
+                <tr style="text-align:right;">
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+
+            </table>
+
+            <table>
+                <!--tabela 02-->
+
+                <tr style="text-align:left ;">
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+
+                <tr style="text-align: center;">
+                    <td colspan="3">4</td>
+                </tr>
+
+                <tr style="text-align:right;">
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+
+            </table>
+
+            <table>
+                <!--tabela 03-->
+
+                <tr style="text-align:center ;">
+                    <td>1</td>
+                    <td>2</td>
+                    <td rowspan="3">3</td>
+                </tr>
+
+                <tr style="text-align: center;">
+
+                    <td colspan="2">4</td>
+                </tr>
+
+                <tr style="text-align:left;">
+
+                    <td>5</td>
+                    <td>6</td>
+
+                </tr>
+
+            </table>
+
+        </div>
+
+    </main>
+
+
+
+</body>
+
+</html>

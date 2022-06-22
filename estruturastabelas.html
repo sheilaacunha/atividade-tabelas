@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style type="text/css">
+        div {
+            display: flex
+        }
+        body{
+            width: 100vw;
+        }
+
+        table {
+            width: 400px;
+            height: 400px;
+            margin: 20px;
+
+        }
+
+        tr,
+        td {
+
+            border: 1px solid white;
+            border-collapse: collapse;
+            border-radius: 10px;
+            background-color: #96D4D4;
+        }
+
+        .table1 {
+            background-color: aqua;
+        }
+
+        li {
+
+            list-style-type: none;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        nav {
+            text-align: center;
+            font-size: 26px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Tabela simples</a> </li>
+                <li><a href="./layoutdesite.html">Layout de Site</a> </li>
+                <li><a href="./estruturastabelas.html">Estruturas de Tabela</a> </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div>
+
+            <table>
+                <!--tabela1-->
+                <tr>
+                    <td colspan="3" class="table1"></td>
+
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+            </table>
+
+            <table><!--tabela2-->
+                <tr>
+                    <td rowspan="3" class="table1"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+
+                    <td></td>
+                    <td></td>
+                </tr>
+
+            </table>
+
+            <table><!--tabela3-->
+                <tr>
+                    <td colspan="5" class="table1"></td>
+
+                </tr>
+
+                <tr>
+                    <td rowspan="4" class="table1"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+
+                    <td></td>
+                    <td></td>
+                    <td rowspan="2" class="table1"></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+
+
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+
+                    <td colspan="3" class="table1"></td>
+
+                    <td></td>
+                </tr>
+
+            </table>
+
+        </div>
+
+
+    </main>
+
+
+
+</body>
